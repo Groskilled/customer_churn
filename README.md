@@ -3,7 +3,10 @@
 - Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 
 ## Project Description
-This projects aims to identify credit card customers that are most likely to churn.
+First project of the MLOps Nanodegree.
+The base code is provided by Udacity as a notebook and the data is from kaggle.
+It aims to identify credit card customers that are most likely to churn using two models: an random forest classifier and a logistic regression.
+
 
 ## Files and data description
 churn_library.py: contains the functions for data preparation, feature engineering, model training and saving the

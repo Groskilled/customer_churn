@@ -1,6 +1,8 @@
 '''
     Tests for functions in churn_library.py
     run pytest churn_script_logging_and_tests.py
+    Date: July 2022
+    Author: Adam Wybierala
 '''
 
 import os
@@ -11,6 +13,7 @@ logging.basicConfig(
     filename='./logs/churn_library.log',
     level = logging.INFO,
     filemode='w',
+	force=True,
     format='%(name)s - %(levelname)s - %(message)s')
 
 def test_import():
